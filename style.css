@@ -31,13 +31,14 @@ a{
 }
 .navigation{
     padding-left: 30px;
+    font-family: sans-serif;
 }
 .section1{
     background-color: rgba(17, 24, 39, 0.9);
     color: white;
 }
 .img{
-    width: 80%;
+    width: 80%x;
     margin-top: 40px;
     margin-inline: auto;
     display: block;
@@ -72,6 +73,30 @@ a{
     max-width: fit-content;
     margin-top: 80px;
 }
+.section2{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-block: 80px;
+}
+.text{
+    padding-top: 190px;
+    padding-left: 40px;
+}
+.image{
+    width: 450px;
+}
+.text p{
+    width: 600px;
+    font-size: 1.125rem;
+    color: #00000066;
+    line-height: 2;
+    max-width: 100%;
+}
+.text h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
 @media (max-width: 772px){
     .navigation{
         display: none;
@@ -84,5 +109,8 @@ a{
     }
     nav{
         padding-inline: 30px;
+    }
+    .section2{
+        display: block;
     }
 }
