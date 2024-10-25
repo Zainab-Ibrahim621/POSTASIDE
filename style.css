@@ -3,13 +3,16 @@
     margin: 0;
     padding: 0;
 }
+img{
+    max-width: 100%;
+}
 nav{
     background-color: rgba(17, 24, 39, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    padding: 20px 80px;
+    padding: 40px 80px;
 }
 a{
     color: white;
@@ -32,7 +35,13 @@ a{
 .section1{
     background-color: rgba(17, 24, 39, 0.9);
     color: white;
-    padding-bottom: 460px;
+}
+.img{
+    width: 80%;
+    margin-top: 40px;
+    margin-inline: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
 }
 .section1 h1{
     font-size: 60px;
@@ -40,13 +49,40 @@ a{
     text-align: center;
     max-width: 800px;
     margin-inline: auto;
+    padding-top: 80px;
 }
-.section1 p{
-    font-size: 15px;
+.ptg{
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding-top: 30px;
+}
+.ptag{
+    color: rgba(255, 255, 255, 0.7); 
+    text-align: center;
+    padding-top: 20px;
+}
+.get{
+    background-color: #111827;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    display: block;
+    margin-inline: auto;
+    max-width: fit-content;
+    margin-top: 80px;
 }
 @media (max-width: 772px){
     .navigation{
         display: none;
+    }
+    .section1{
+        padding: 20px;
+    }
+    .section1 h1{
+        font-size: 40px;
+    }
+    nav{
+        padding-inline: 30px;
     }
 }
