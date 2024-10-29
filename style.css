@@ -231,6 +231,9 @@ footer{
     align-items: center;
     padding: 40px;
 }
+.left{
+    text-align: left;
+}
 .first-footer img{
     width: 30px;
     padding-left: 10px;
